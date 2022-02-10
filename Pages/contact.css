@@ -99,8 +99,10 @@ ul {
 	.card{
 		width: 300px;
 		height: 400px;
+	}
+	body{
 		display: flex;
-		align-items: center;
+		align-itmes: center;
 		justify-content: center;
 	}
 }
