@@ -16,11 +16,10 @@ body{
 	-moz-osx-font-smoothing: grayscale;
 }
 .card{
-	width: 200px; 
 	overflow: hidden;
 	background-color: #FFFFFF;
-    width: 400px;
-    height: 600px;
+    	width: 400px;
+   	height: 600px;
 	border-radius: 15px;
 	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 	text-align: center;
@@ -95,3 +94,11 @@ ul {
 		transform: scale(1.5);
 		color: #2ab1ce;
 		}
+
+@media (max-width:600px){
+	.card{
+		width: 200px;
+		height: 400px;
+	}
+}
+	
